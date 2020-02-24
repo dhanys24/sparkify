@@ -23,8 +23,8 @@ This project will help Sparkify as song application company to predict customer 
 For company to retain existing customer is easier than acquiring new customer.Also in most cases it will be cost efficient to retain the existing one than new.
 
 ## File Descriptions <a name="filedescriptions"></a>
-- sparkify_capstone_project.ipynb : Jupyter notebook used for this project
-- sparkify_capstone_project.py: python script extracted from the notebook
+- sparkify.ipynb : Jupyter notebook used for this project
+- sparkify.py: python script extracted from the notebook
 
 ## Result <a name="results"></a>
 I use 12 features to predict users churn. Two of three model I test, Logistic Regression and Gradient Boosting Tree show that two most important features are Thumbsdown and Duration of User Subscribe the Sparkify. I try 3 methods for modeling that are : Logistic Regression, Random Forest Classifier, and Gradient Boosting Tree. Based on the F1-Score, Logistic Regression is the most fittable for this case with F1-Score 0.7976190476190476
