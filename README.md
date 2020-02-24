@@ -1,5 +1,5 @@
-# for-study
-just for study and have fun coding!
+# Sparkify Customer Churn Prediction - Capstone Project
+Make a model to predict customer who will churn
 
 
 ### Table of Contents
@@ -12,24 +12,23 @@ just for study and have fun coding!
 
 ## Installation <a name="installation"></a>
 
-There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python.  The code should run with no issues using Python versions 3.*.
+We need to install software jupyter notebook (python 3.6) with several libraries installed :
+- Pyspark
+- Numpy
+- Pandas
+- Seaborn
 
 ## Project Motivation <a name="projectmotivation"></a>
-For this project I use data from stackoverflow annual reports year 2016-2019. 
-Link here : https://insights.stackoverflow.com/survey.
-
-This project is made to answer these 3 questions :
-1. What is the most popular programming language in 2019 ?
-2. What is the fastest growing programming language from 2016 until 2019?
-3. What is the highest paying programming language in 2018?
+This project will help Sparkify as song application company to predict customer who wil be churned. 
+For company to retain existing customer is easier than acquiring new customer.Also in most cases it will be cost efficient to retain the existing one than new.
 
 ## File Descriptions <a name="filedescriptions"></a>
-There are 3 python script here, each will answer above business questions
+Sparkify-Capstone-Project : Jputer notebook used for this project
+main_sparkify.py: python script extracted from the notebook
 
 ## Result <a name="results"></a>
-This project is to know what is the popular programming languange in 2019.
-I also compare the data from 2016-2019.
-Result can be found on Medium link [here](https://medium.com/@dhanys24/most-popular-programming-language-2019-f8ecf06acede).
+I use 12 features to predict users churn. Two of three model I test, Logistic Regression and Gradient Boosting Tree show that two most important features are Thumbsdown and Duration of User Subscribe the Sparkify. I try 3 methods for modeling that are : Logistic Regression, Random Forest Classifier, and Gradient Boosting Tree. Based on the F1-Score, Logistic Regression is the most fittable for this case with F1-Score 0.7976190476190476
+Result can be found on Medium link [here](https://medium.com/@dhanys24/sparkify-project-predicting-customer-churn-e106f2c94729).
 
 ## Licensing, Authors, and Acknowledgements  <a name="licensingauthorsandacknowledgements"></a>
-Thanks to stackoverflow data survey from 2016-2019. This data is very helpful to understand the 3 business questions I have in mind.
+Thanks to [udacity](https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009t) for providing the data and jupyter notebook workspace for this Sparkify Project
